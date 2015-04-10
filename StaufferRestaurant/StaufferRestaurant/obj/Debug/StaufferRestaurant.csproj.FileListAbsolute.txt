@@ -6,3 +6,4 @@ C:\Users\Travis\Dropbox\Private\StaufferRestaurant\StaufferRestaurant\StaufferRe
 C:\Users\Travis\Dropbox\Private\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\obj\Debug\StaufferRestaurant.csproj.GenerateResource.Cache
 C:\Users\Travis\Dropbox\Private\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\obj\Debug\StaufferRestaurant.exe
 C:\Users\Travis\Dropbox\Private\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\obj\Debug\StaufferRestaurant.pdb
+C:\Users\Travis\Dropbox\Private\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\obj\Debug\StaufferRestaurant.frmStaufferRestaurant.resources
