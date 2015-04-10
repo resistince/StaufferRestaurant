@@ -1,1 +1,8 @@
 C:\Users\Travis\Dropbox\Private\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\bin\Debug\StaufferRestaurant.exe.config
+C:\Users\Travis\Dropbox\Private\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\bin\Debug\StaufferRestaurant.exe
+C:\Users\Travis\Dropbox\Private\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\bin\Debug\StaufferRestaurant.pdb
+C:\Users\Travis\Dropbox\Private\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\obj\Debug\StaufferRestaurant.csprojResolveAssemblyReference.cache
+C:\Users\Travis\Dropbox\Private\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\obj\Debug\StaufferRestaurant.Properties.Resources.resources
+C:\Users\Travis\Dropbox\Private\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\obj\Debug\StaufferRestaurant.csproj.GenerateResource.Cache
+C:\Users\Travis\Dropbox\Private\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\obj\Debug\StaufferRestaurant.exe
+C:\Users\Travis\Dropbox\Private\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\obj\Debug\StaufferRestaurant.pdb
