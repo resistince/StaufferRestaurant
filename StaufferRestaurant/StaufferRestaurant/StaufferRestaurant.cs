@@ -57,7 +57,9 @@ namespace StaufferRestaurant
         private void mnuFormsTables_Click(object sender, EventArgs e)
         {
             frmTables aTables = new frmTables();
+            aTables.MdiParent = this;
             aTables.Show();
+            aTables.Focus();
         }
 
     }
