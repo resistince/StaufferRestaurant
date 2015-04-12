@@ -7,3 +7,4 @@ C:\Users\Travis\Dropbox\Private\StaufferRestaurant\StaufferRestaurant\StaufferRe
 C:\Users\Travis\Dropbox\Private\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\obj\Debug\StaufferRestaurant.exe
 C:\Users\Travis\Dropbox\Private\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\obj\Debug\StaufferRestaurant.pdb
 C:\Users\Travis\Dropbox\Private\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\obj\Debug\StaufferRestaurant.frmStaufferRestaurant.resources
+C:\Users\Travis\Dropbox\Private\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\obj\Debug\StaufferRestaurant.frmTables.resources

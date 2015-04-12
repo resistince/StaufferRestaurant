@@ -48,5 +48,17 @@ namespace StaufferRestaurant
         {
             this.Close();
         }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            stsDateTime.Text = DateTime.Now.ToString("dd.MM.yyyy") + ", " + DateTime.Now.ToString("hh:mm:ss tt");
+        }
+
+        private void mnuFormsTables_Click(object sender, EventArgs e)
+        {
+            frmTables aTables = new frmTables();
+            aTables.Show();
+        }
+
     }
 }
