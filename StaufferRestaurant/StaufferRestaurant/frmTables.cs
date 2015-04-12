@@ -39,28 +39,42 @@ namespace StaufferRestaurant
 
         private void fillListBox()
         {
-            String connectionString = ConfigurationManager.ConnectionStrings["connectionString"].ConnectionString;
-            SqlConnection conn = new SqlConnection(connectionString);
-            SqlDataAdapter da = new SqlDataAdapter();
-                        
-            String commandString = "SELECT TableID, SeatingCapacity, CurrentCapacity from tblTables";
-            SqlCommand cmd = new SqlCommand();
-            SqlDataReader dr;
-            conn.Open();            
-            cmd.CommandText = commandString;
-            cmd.Connection = conn;
-            dr = cmd.ExecuteReader();
-            lstTableList.Items.Clear();
-            lstTableList.BeginUpdate();
-            while (dr.Read())
+            try
             {
-                lstTableList.Items.Add(dr.GetInt32(0) + " - " + dr.GetInt32(1) + " - " + dr.GetInt32(2));
+
+                String connectionString = "Data Source=TRAVIS-PC\\SQLEXPRESS;Initial Catalog=StaufferRestaurant;Integrated Security=True;Pooling=False";
+                SqlConnection conn = new SqlConnection(connectionString);
+                SqlDataAdapter da = new SqlDataAdapter();
+
+                String commandString = "SELECT TableID, SeatingCapacity, CurrentCapacity from tblTables";
+                SqlCommand cmd = new SqlCommand();
+                SqlDataReader dr;
+                conn.Open();
+                cmd.CommandText = commandString;
+                cmd.Connection = conn;
+                dr = cmd.ExecuteReader();
+                lstTableList.Items.Clear();
+                lstTableList.BeginUpdate();
+                while (dr.Read())
+                {
+                    if (dr.GetInt32(2) >= dr.GetInt32(1))
+                    {
+                        lstTableList.Items.Add(dr.GetInt32(0) + "      FULL");
+                    }
+                    else
+                    {
+                        lstTableList.Items.Add(dr.GetInt32(0));
+                    }
+                }
+                lstTableList.EndUpdate();
+                dr.Close();
+                conn.Close();
+
             }
-            lstTableList.EndUpdate();
-            dr.Close();
-            conn.Close();
-
-
+            catch (Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
         }
     }
 }
