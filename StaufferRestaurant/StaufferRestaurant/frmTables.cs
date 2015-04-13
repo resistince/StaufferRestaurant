@@ -14,24 +14,14 @@ namespace StaufferRestaurant
 {
     public partial class frmTables : Form
     {
+        private static frmTables frmTablesInstance;
+
         
         public frmTables()
         {
             InitializeComponent();
         }
 
-        private static frmTables frmTablesInstance = new frmTables();
-        static internal frmTables Instance
-        {
-            get
-            {
-                if (frmTablesInstance == null)
-                {
-                    frmTablesInstance = new frmTables();
-                }
-                return frmTablesInstance;
-            }
-        }
         private void frmTables_Load(object sender, EventArgs e)
         {
             fillListBox();
@@ -42,7 +32,8 @@ namespace StaufferRestaurant
             try
             {
 
-                String connectionString = "Data Source=TRAVIS-PC\\SQLEXPRESS;Initial Catalog=StaufferRestaurant;Integrated Security=True;Pooling=False";
+               // String connectionString = "Data Source=TRAVIS-PC\\SQLEXPRESS;Initial Catalog=StaufferRestaurant;Integrated Security=True;Pooling=False";
+                String connectionString = Properties.Settings.Default.StaufferRestaurantConnectionString;
                 SqlConnection conn = new SqlConnection(connectionString);
                 SqlDataAdapter da = new SqlDataAdapter();
 
@@ -75,6 +66,11 @@ namespace StaufferRestaurant
             {
                 MessageBox.Show(e.Message);
             }
+        }
+
+        private void frmTables_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            frmTablesInstance = null;
         }
     }
 }

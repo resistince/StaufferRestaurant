@@ -53,6 +53,7 @@
             this.Name = "frmTables";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tables";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmTables_FormClosing);
             this.Load += new System.EventHandler(this.frmTables_Load);
             this.ResumeLayout(false);
 

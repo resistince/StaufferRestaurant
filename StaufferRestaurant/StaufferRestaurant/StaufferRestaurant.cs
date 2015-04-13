@@ -56,10 +56,23 @@ namespace StaufferRestaurant
 
         private void mnuFormsTables_Click(object sender, EventArgs e)
         {
-            frmTables aTables = new frmTables();
-            aTables.MdiParent = this;
-            aTables.Show();
-            aTables.Focus();
+            bool isOpen = false;
+            foreach (Form f in Application.OpenForms)
+            {
+                if (f.Name == "frmTables")
+                {
+                    isOpen = true;
+                    f.Focus();
+                    break;
+                }
+            }
+            if (isOpen == false)
+            {
+                frmTables aTables = new frmTables();
+                aTables.MdiParent = this;
+                aTables.Show();
+                aTables.Focus();
+            }
         }
 
     }
