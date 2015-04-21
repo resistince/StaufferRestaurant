@@ -48,5 +48,32 @@ namespace StaufferRestaurant
         {
             this.Close();
         }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            stsDateTime.Text = DateTime.Now.ToString("dd.MM.yyyy") + ", " + DateTime.Now.ToString("hh:mm:ss tt");
+        }
+
+        private void mnuFormsTables_Click(object sender, EventArgs e)
+        {
+            bool isOpen = false;
+            foreach (Form f in Application.OpenForms)
+            {
+                if (f.Name == "frmTables")
+                {
+                    isOpen = true;
+                    f.Focus();
+                    break;
+                }
+            }
+            if (isOpen == false)
+            {
+                frmTables aTables = new frmTables();
+                aTables.MdiParent = this;
+                aTables.Show();
+                aTables.Focus();
+            }
+        }
+
     }
 }

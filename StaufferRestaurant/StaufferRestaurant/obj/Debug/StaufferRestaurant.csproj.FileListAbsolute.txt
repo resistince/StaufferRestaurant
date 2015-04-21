@@ -7,6 +7,7 @@ C:\Users\Travis\Dropbox\Private\StaufferRestaurant\StaufferRestaurant\StaufferRe
 C:\Users\Travis\Dropbox\Private\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\obj\Debug\StaufferRestaurant.exe
 C:\Users\Travis\Dropbox\Private\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\obj\Debug\StaufferRestaurant.pdb
 C:\Users\Travis\Dropbox\Private\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\obj\Debug\StaufferRestaurant.frmStaufferRestaurant.resources
+<<<<<<< HEAD
 C:\Users\tstauffer\Documents\GitHub\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\bin\Debug\StaufferRestaurant.exe.config
 C:\Users\tstauffer\Documents\GitHub\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\obj\Debug\StaufferRestaurant.exe
 C:\Users\tstauffer\Documents\GitHub\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\obj\Debug\StaufferRestaurant.pdb
@@ -16,3 +17,6 @@ C:\Users\tstauffer\Documents\GitHub\StaufferRestaurant\StaufferRestaurant\Stauff
 C:\Users\tstauffer\Documents\GitHub\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\obj\Debug\StaufferRestaurant.frmStaufferRestaurant.resources
 C:\Users\tstauffer\Documents\GitHub\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\obj\Debug\StaufferRestaurant.Properties.Resources.resources
 C:\Users\tstauffer\Documents\GitHub\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\obj\Debug\StaufferRestaurant.csproj.GenerateResource.Cache
+=======
+C:\Users\Travis\Dropbox\Private\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\StaufferRestaurant\obj\Debug\StaufferRestaurant.frmTables.resources
+>>>>>>> origin/master
